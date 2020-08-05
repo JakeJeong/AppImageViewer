@@ -42,6 +42,10 @@ class ViewerToolbar: UIView {
             return
         }
         
+        if brower.isHiddenShare {
+            return
+        }
+        
         let x = brower.shareButtonSide == .left ? self.frame.origin.x + ViewerButtonConfig.padding : self.frame.width - 55
         let btn = UIButton(frame: CGRect(x: x, y: 0, width: 38, height: 38))
         

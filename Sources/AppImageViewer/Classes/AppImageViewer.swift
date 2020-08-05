@@ -42,6 +42,7 @@ open class AppImageViewer: UIViewController {
     open var displayDeleteButton: Bool = false
     open var shareButtonSide: ButtonVisibleSide = .left
     open var isCustomShare: Bool = true
+    open var isHiddenShare: Bool = false
     open var enableZoomBlackArea: Bool = false
     open var disableVerticalSwipe: Bool = false
     open var bgColor: UIColor = .black
